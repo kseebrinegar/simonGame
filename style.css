@@ -1,0 +1,259 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button:focus {
+	outline: 0;
+}
+
+#container {
+	box-sizing: content-box;
+	background: gray;
+	width: 400px;
+	height: 400px;
+	border-radius: 400px;
+	border: dimgray 20px solid;
+	position: relative;
+	margin: auto;
+	margin-top: 150px;
+}
+
+#s1 {
+	background: darkgreen;
+	width: 200px;
+	height: 200px;
+	border-top-left-radius: 200px;
+	border-right: dimgray 10px solid;
+	border-bottom: dimgray 10px solid;
+}
+
+#s2 {
+	background: darkred;
+	width: 200px;
+	height: 200px;
+	border-top-right-radius: 200px;
+	border-left: dimgray 10px solid;
+	border-bottom: dimgray 10px solid;
+}
+
+
+#s3 {
+	background: goldenrod;
+	width: 200px;
+	height: 200px;
+	border-bottom-left-radius: 200px;
+	border-top: dimgray 10px solid;
+	border-right: dimgray 10px solid;
+}
+
+
+#s4 {
+	background: darkblue;
+	width: 200px;
+	height: 200px;
+	border-bottom-right-radius:  200px;
+	border-top: dimgray 10px solid;
+	border-left: dimgray 10px solid;
+}
+
+.float {
+	float: left;
+}
+
+#center {
+	background: white;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	border: dimgray 10px solid;
+	z-index: 100;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+#simon-logo {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#simon-logo span {
+	display: inline-block;
+	font-size: .3em;
+	position: relative;
+	top: -17px;
+}
+
+#buttons {
+	padding-top: 1px;
+}
+
+#buttons button {
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 10px;
+	border-width: 0px;
+	background: red;
+	position: relative;
+	border: 1px solid black;
+	box-shadow: 0 3px 0 gray;
+}
+
+#strict button {
+	background: yellow;
+}
+
+#buttons button:active {
+	top: 1px;
+	box-shadow: 0 0 0 gray;
+}
+
+.red {
+	color: red !important;
+	text-shadow: 0px 0px 12px rgba(255, 0, 0, 1) !important;
+}
+
+.dark-red {
+	color: darkred !important;
+}
+
+#light {
+	font-size: 4em;
+	color: darkred;
+	position: absolute;
+	top: 25px;
+	right: 29px;
+	text-shadow: 1px 0px 1px rgba(0, 0, 0, 0);
+}
+
+.button-control {
+	width: 28.33%;
+	float: left;
+	text-align: center;
+}
+
+#count {
+	background: darkred;
+	color: crimson;
+	width: 43.33;
+	height: 40px;
+	border-radius: 5px;
+	border: 2px black solid;
+	font-size: 1.5em;
+	margin-left: 10%;
+	padding: 5px;
+	
+}
+
+#start {
+	padding-left: 10px;
+}
+
+#cleard {
+	clear: both;
+}
+
+.words {
+	width: 25%;
+	font-size: .6em;
+	float: left;
+	text-align: center;
+	margin: 4%;
+
+}
+
+#count-words {
+	padding-left: 20px;
+}
+
+#start-words {
+	padding-left: 20px;
+}
+
+#strict-words {
+	padding-right: 5px;
+}
+
+#on-off {
+	width: 125px;
+	font-size: .6em;
+	float: left;
+	text-align: center;
+	margin-left: 37px;
+	margin-top: 5px;
+	line-height: 12px;
+}
+
+#on-off p, #on-off div {
+	float: left;
+	padding: 5px;
+}
+
+#on-off #background-on-off {
+	width: 50px;
+	height: 23px;
+	background: black;
+	padding: 2px;
+}
+
+#on-off-button {
+	background: dodgerblue;
+	height: 19px;
+	border: 1px gray solid;
+	width: 25px;	
+}
+
+
+
+
+
+
